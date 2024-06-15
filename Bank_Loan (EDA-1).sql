@@ -12,7 +12,7 @@ FROM finance_1 INNER JOIN finance_2
 GROUP BY grade , sub_grade
 ORDER BY grade , sub_grade;
 
--- What is the total payment amount based on the verification status of the customer ?
+-- What is the total payment amount based on the customer's verification status ?
 SELECT verification_status , FORMAT(ROUND(SUM(total_pymnt),2),2) AS total_payment
 FROM finance_1 INNER JOIN finance_2
 	ON (finance_1.id =  finance_2.id)
@@ -30,3 +30,8 @@ SELECT home_ownership, last_pymnt_d
 FROM finance_1  INNER JOIN finance_2
 	ON (finance_1.id = finance_2.id)
 GROUP by home_ownership, last_pymnt_d;
+
+-- In which state have we issued the most loans and what is the value of loans issued?
+SELECT addr_state, COUNT(addr_state) AS number_of_loans_issued, FORMAT(SUM(loan_amnt),2) AS loan_amount_issued
+FROM finance_1
+GROUP BY addr_state;
