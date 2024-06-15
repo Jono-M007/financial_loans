@@ -17,3 +17,6 @@ The financial institution has tasked the data analytics to answer the following 
   11. The maximum and minimum loans issued
   12. What are the reasons why people take out loans, and what is the total amount issued for each of those reasons?
   13. What are the income demographics of our customer base?
+
+
+## Financial loan dashboard : https://public.tableau.com/views/Financialloandashboard/Maindashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
