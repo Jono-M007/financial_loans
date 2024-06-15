@@ -4,8 +4,8 @@ Data analysis and visualization of financial loans issued by a financial institu
 A financial institution with branches has decided to review its financial loan business to see how it has performed over the years.
 The financial institution has tasked the data analytics to answer the following questions :
 
-	*What was the loan amount issued per year?
- 	*Provide a breakdown of the revolving balance for the different credit grades.
+	 What was the loan amount issued per year?
+ 	* Provide a breakdown of the revolving balance for the different credit grades.
 	*What is the total payment amount based on the customer's verification status?
  	*What is the current loan status of the customer and where are they located?
 	*What was the homeownership status of the customers when they made their last payment?
